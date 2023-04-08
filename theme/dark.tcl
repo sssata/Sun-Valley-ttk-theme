@@ -422,7 +422,7 @@ namespace eval ttk::theme::sv_dark {
     }
 
     ttk::style configure TNotebook -padding 1
-    ttk::style configure TNotebook.Tab -focuscolor $theme_colors(-accent)
+    ttk::style configure TNotebook.Tab -focuscolor $theme_colors(-bg)
     ttk::style element create Notebook.border image $I(notebook-border) -border 5 -padding 5
 
     ttk::style element create Notebook.tab image \
